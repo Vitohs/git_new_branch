@@ -36,26 +36,7 @@ limpatela
    ultima <- 5
    ACHOU <- falso
    escreva ("digite o valor procurado: ")
-   leia (numerolido)
-   enquanto (primeira <= ultima) e nao ACHOU faca
-   metade <- (primeira + ultima) \ 2
-      se VET[metade] = numerolido entao
-         ACHOU <- verdadeiro
-      senao
-      se VET[metade] > numerolido entao
-         ultima <- metade -1
-      senao
-         primeira <- metade + 1
-      fimse
-      fimse
-   fimenquanto
-   se ACHOU = verdadeiro entao
-      escreval ("o valor: ", numerolido , " foi encontrado na posicao ", metade)
-   senao
-      escreval ("o valor", numerolido, " nao foi encontrado na vetor ")
-      FIMSE
-      escreval ("deseja repetir ?, s/n: ")
-      leia(continua)
+   
       ate continua = "n"
 
 Fimalgoritmo
